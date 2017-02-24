@@ -1,0 +1,29 @@
+width: 20
+height: 15
+GridType: Quad
+HamiltonCycle: true
+startX: 1
+startY: 1
+
+#StepSize: 1
+#Offset: -0.523598776
+#Htrans: -4
+#Vtrans: 15.5
+
+#TODO adjust all parameters below
+StepSizeMin: 0.65
+StepSizeMax: 0.8
+StepSizeStep: 0.05
+
+HtransMin: -6.5
+HtransMax: -4.5
+HtransStep: 0.05
+
+VtransMin: -4.5
+VtransMax: -2.5
+VtransStep: 0.05
+
+OffsetMin: -2.0
+OffsetMax: 0.0
+OffsetStep: 0.05
+

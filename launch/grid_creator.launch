@@ -1,0 +1,6 @@
+<launch>
+    <env name="ROSCONSOLE_CONFIG_FILE" value="$(find grid_creator)/log/rosconsole.config" />
+    <rosparam file="$(find grid_creator)/launch/labor_param.yaml"/>
+    <param name="ExitXML" value="$(find direct_search_manager)/rsc/config.xml"/>
+    <node name="grid_creator_node" pkg="grid_creator" type="grid_creator.py" output="screen" />
+</launch>

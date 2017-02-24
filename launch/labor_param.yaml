@@ -1,0 +1,44 @@
+width: 10
+height: 10
+GridType: Hex
+HamiltonCycle: false
+startX: 1
+startY: 1
+
+#StepSize: 0.77
+#Offset: -0.06
+#Htrans: -5.6
+#Vtrans: -3.75
+
+StepSizeMin: 0.45
+StepSizeMax: 0.50
+StepSizeStep: 0.01
+
+HtransMin: -6.5
+HtransMax: -3.0
+HtransStep: 0.05
+
+VtransMin: -5.5
+VtransMax: -2.0
+VtransStep: 0.05
+
+OffsetMin: -0.12
+OffsetMax: 0.0
+OffsetStep: 0.01
+
+#Current best config
+#StepSizeMin: 0.47
+#StepSizeMax: 0.47
+#StepSizeStep: 0.01
+
+#HtransMin: -3.75
+#HtransMax: -3.75
+#HtransStep: 0.05
+
+#VtransMin: -4.2
+#VtransMax: -4.2
+#VtransStep: 0.05
+
+#OffsetMin: -0.09
+#OffsetMax: -0.09
+#OffsetStep: 0.01

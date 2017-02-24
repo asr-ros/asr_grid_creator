@@ -1,0 +1,13 @@
+.gitignore 
+.directory
+*.files
+*.creator
+*.includes
+*.creator.user
+*.autosave
+*~
+html
+latex
+*.svn
+*.swp
+*txt.user
