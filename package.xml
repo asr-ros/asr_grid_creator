@@ -2,7 +2,13 @@
 <package>
   <name>asr_grid_creator</name>
   <version>1.0.0</version>
-  <description>The package is used to create the grid for the direct search</description>
+  <description>
+    This package can generate a grid for the current map. Each grid_point
+    defines a position where the robot has to move to. The grid can be used
+    later on in the asr_direct_search_manager as a basis to generate poses to
+    search the map. At each grid_point the robot will search around him. All
+    gird_points together should cover the map.
+  </description>
   <author>Borella Jocelyn, Karrenbauer Oliver, Meißner Pascal</author>
   <maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
   <license>BSD</license>
