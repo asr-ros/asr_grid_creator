@@ -17,7 +17,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 import sys
 import rospy
-import next_best_view
+import asr_next_best_view
 import subprocess, os, signal
 import xml.etree.cElementTree as ET
 import math
@@ -25,7 +25,7 @@ import rospkg
 import datetime
 
 
-from next_best_view.srv import IsPositionReachable,GetDistance
+from asr_next_best_view.srv import IsPositionReachable,GetDistance
 from geometry_msgs.msg import Point
 from std_msgs.msg import ColorRGBA
 from visualization_msgs.msg import Marker, MarkerArray
