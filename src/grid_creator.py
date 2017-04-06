@@ -17,7 +17,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 import sys
 import rospy
-import asr_next_best_view
 import subprocess, os, signal
 import xml.etree.cElementTree as ET
 import math
